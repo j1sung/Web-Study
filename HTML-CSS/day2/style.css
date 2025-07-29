@@ -1,0 +1,67 @@
+/* 챌린지 1 */
+.box {
+  border: 50px solid red;
+  width: 200px;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+
+.green {
+  border-color: green;
+  /* display: none; -> 사라지면서 아래 공간 땡김*/
+  /* visibility: hidden; -> 사라지면서 공간은 남음*/
+}
+
+.blue {
+  border-color: #0e00cf;
+}
+
+/* 챌린지 2 */
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+h1 {
+  color: #9b59b6;
+}
+
+h1:first-child {
+  text-align: center;
+}
+
+h1::before {
+  content: "Topic: ";
+}
+
+p {
+  font-size: 16px;
+  font-family: Verdana;
+  font-style: italic;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: #2980b9;
+}
+
+.challenge2 {
+  background-color: #fff;
+  background-image: linear-gradient(
+      90deg,
+      transparent 79px,
+      #abced4 79px,
+      #abced4 81px,
+      transparent 81px
+    ),
+    linear-gradient(#eee 0.1em, transparent 0.1em);
+  background-size: 100% 1.2em;
+  padding-left: 10%;
+}
+
+.sub-header {
+  color: #2980b9;
+}

@@ -1,0 +1,54 @@
+.red {
+  color: red;
+  background-color: yellow;
+  text-align: center;
+}
+
+.border-blue {
+  border: 1px solid blue;
+}
+
+.img-size {
+  width: 200px;
+  height: 200px;
+}
+
+.margin-space {
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+
+.padding-space {
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+/* 여기부터는 CSS 선택자 연습 */
+.new-style {
+  color: red;
+} /* class로 선택 */
+
+#new-style {
+  color: red;
+} /* id로 선택 */
+
+p {
+  color: red;
+} /* 태그로 선택 */
+
+p.new-style {
+  color: red;
+} /* p태그에 있는 class가 new-style인 태그만 선택 */
+
+div .new-style {
+  /* 스페이스 중요! */
+  color: blue;
+} /* div태그 아래에 있는 모든 자손들 중 스타일이 new-style을 가진 태그만 선택 */
+
+/* div>.new-style은 적용 안됨 -> 직접적인 자손이 아님 */
+span > .new-style {
+  color: green;
+} /* span태그 바로 밑에 직접적인 자식 중에서 new-style을 가진 태그를 선택 */
+
+/* span>.{클래스, 태그, id} <- 어떤것이든 들어갈 수 있음 */
