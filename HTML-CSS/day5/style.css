@@ -1,0 +1,101 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.parent1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.child1 {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: black;
+}
+
+.sub-parent {
+  display: flex;
+}
+
+.child1-move {
+  position: relative;
+  right: 5px;
+}
+
+.line {
+  border-bottom: 1px solid gray;
+  width: 100%;
+}
+
+.parent2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.child1-center {
+  align-self: center;
+}
+
+.child1-end {
+  align-self: flex-end;
+}
+
+.parent3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.child1-big {
+  width: 200px;
+  height: 200px;
+  color: white;
+  background-color: gray;
+  position: relative; /* 이게 상위에 있어야 absolute가 상위 기준!*/
+}
+
+.child1-position {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.child2 {
+  background-color: gray;
+}
+
+.child2-move {
+  position: relative;
+  left: 50px;
+  top: -50px;
+}
+
+.parent4 {
+  height: 50vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.child1-big2 {
+  width: 400px;
+  height: 200px;
+  color: white;
+  background-color: gray;
+  position: relative; /* 이게 상위에 있어야 absolute가 상위 기준!*/
+}
+
+.child1-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.child1-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
