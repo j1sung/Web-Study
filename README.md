@@ -1,8 +1,9 @@
 # Web-Study
-|번호|페이지|
+|Index|Site|
 |:---:|:---:|
-|1.|[HTML 기초](https://html-css-day1-js.netlify.app/)|
-|2.|[CSS 기초](https://html-css-day2-js.netlify.app/)|
-|3.|[구글 사이트 만들기1](https://html-css-day3-js.netlify.app/)|
-|4.|[구글 사이트 만들기2](https://html-css-day4-js.netlify.app/)|
-|5.|[position, flex](https://html-css-day5-js.netlify.app/)|
+|Day1|[HTML 기초](https://html-css-day1-js.netlify.app/)|
+|Day2|[CSS 기초](https://html-css-day2-js.netlify.app/)|
+|Day3|[Google Page 만들기1](https://html-css-day3-js.netlify.app/)|
+|Day4|[Google Page 만들기2](https://html-css-day4-js.netlify.app/)|
+|Day5|[position, flex](https://html-css-day5-js.netlify.app/)|
+|Day6|[Spotify Page 만들기](https://html-css-day6-js.netlify.app/)|
