@@ -1,0 +1,38 @@
+.btn-outline-success {
+  color: #ffc943;
+  border-color: #ffc943;
+}
+
+.btn-outline-success:hover {
+  background-color: #00de1e;
+  color: white;
+  border-color: #00de1e;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.first-line {
+  border-bottom: 1px solid #392d23;
+}
+
+.second-line a {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 48rem) {
+  .first-line {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .second-line {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-bottom: 1px solid #392d23;
+  }
+}
