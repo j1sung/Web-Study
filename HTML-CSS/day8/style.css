@@ -9,12 +9,22 @@
   border-color: #00de1e;
 }
 
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+}
+
 footer {
   background-color: black;
   color: white;
 }
 
-.first-line {
+.first-line a {
+  color: white;
+  text-decoration: none;
+}
+
+.second-line {
   border-bottom: 1px solid #392d23;
 }
 
@@ -23,16 +33,64 @@ footer {
   text-decoration: none;
 }
 
+.third-line a {
+  color: white;
+  text-decoration: none;
+}
+
+.fourth-line {
+  display: none;
+}
+
+.kr {
+  display: block;
+}
+
+.sticky-mail {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.sticky-mail button {
+  background-color: #ffc943;
+  color: white;
+  border: none;
+  border-radius: 12px;
+
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.sticky-mail button:hover {
+  background-color: #00de1e;
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+
 @media screen and (max-width: 48rem) {
-  .first-line {
+  .second-line {
     text-align: center;
   }
 }
 
 @media screen and (max-width: 48rem) {
-  .second-line {
+  .third-line {
     padding-left: 2rem;
     padding-right: 2rem;
     border-bottom: 1px solid #392d23;
+  }
+}
+
+@media Screen and (max-width: 48rem) {
+  .fourth-line {
+    display: block;
+  }
+}
+
+@media Screen and (max-width: 48rem) {
+  .kr {
+    display: none;
   }
 }
